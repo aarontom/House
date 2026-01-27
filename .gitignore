@@ -1,0 +1,86 @@
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# --- Secrets / env ---
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Dependencies ---
+node_modules/
+vendor/
+
+# --- Build outputs ---
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.vercel/
+.netlify/
+
+# --- Caches ---
+.cache/
+.tmp/
+temp/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Java / Kotlin ---
+target/
+.gradle/
+build/
+
+# --- Go ---
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.*
+.crash.log
+
+# --- Local DBs ---
+*.sqlite
+*.sqlite3
+*.db
+
+# --- Claude Code / AI tools (common) ---
+.claude/
+.claude-cache/
+.ai/
+
